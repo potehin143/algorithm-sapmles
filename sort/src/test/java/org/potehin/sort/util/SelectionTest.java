@@ -2,6 +2,7 @@ package org.potehin.sort.util;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.potehin.common.Common;
 
 
 public class SelectionTest {

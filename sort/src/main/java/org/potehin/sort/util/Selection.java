@@ -1,7 +1,7 @@
 package org.potehin.sort.util;
 
-import static org.potehin.sort.util.Common.exchange;
-import static org.potehin.sort.util.Common.less;
+import static org.potehin.common.Common.swap;
+import static org.potehin.common.Common.less;
 
 /**
  * Класс реализует алгоритм сортировки Выбором
@@ -21,7 +21,7 @@ public class Selection {
 
                 }
             }
-            exchange(array, i, min);
+            swap(array, i, min);
         }
 
     }

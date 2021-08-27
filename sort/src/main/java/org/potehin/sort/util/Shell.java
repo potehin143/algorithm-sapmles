@@ -1,7 +1,7 @@
 package org.potehin.sort.util;
 
-import static org.potehin.sort.util.Common.exchange;
-import static org.potehin.sort.util.Common.less;
+import static org.potehin.common.Common.swap;
+import static org.potehin.common.Common.less;
 
 /**
  * Класс реализует алгорим сортировки Шелла
@@ -21,7 +21,7 @@ public class Shell {
         while (h >= 1) {
             for (int i = h; i < n; i++) {
                 for (int j = i; j >= h && less(array[j], array[j - h]); j -= h) {
-                    exchange(array, j, j - h);
+                    swap(array, j, j - h);
                 }
             }
             h = h / 3;

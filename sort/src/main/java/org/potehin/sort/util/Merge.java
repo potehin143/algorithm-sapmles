@@ -1,6 +1,6 @@
 package org.potehin.sort.util;
 
-import static org.potehin.sort.util.Common.less;
+import static org.potehin.common.Common.less;
 
 /**
  * Класс реализует алгоритм сортировки Слиянием
