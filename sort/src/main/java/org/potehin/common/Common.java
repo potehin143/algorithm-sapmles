@@ -1,4 +1,4 @@
-package org.potehin.sort.util;
+package org.potehin.common;
 
 /**
  * Общие функции
@@ -18,7 +18,7 @@ public class Common {
      * @param index2    - индекс в массиве второго элемента
      * @param &lt;T&gt; Тип данных массива
      */
-    public static <T> void exchange(Comparable<T>[] array, int index1, int index2) {
+    public static <T> void swap(Comparable<T>[] array, int index1, int index2) {
         Comparable<T> tmp = array[index1];
         array[index1] = array[index2];
         array[index2] = tmp;

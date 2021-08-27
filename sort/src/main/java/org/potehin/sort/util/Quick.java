@@ -1,7 +1,7 @@
 package org.potehin.sort.util;
 
-import static org.potehin.sort.util.Common.exchange;
-import static org.potehin.sort.util.Common.less;
+import static org.potehin.common.Common.swap;
+import static org.potehin.common.Common.less;
 
 /**
  * Класс реализует алгоритм Быстрой сортировки
@@ -46,10 +46,10 @@ public class Quick {
             if(i>=j){
                 break;
             }else {
-                exchange(array, i, j);
+                swap(array, i, j);
             }
         }
-        exchange(array,lo,j);
+        swap(array,lo,j);
       return j;
     }
 
