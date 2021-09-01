@@ -1,7 +1,7 @@
 package org.potehin.sort.util;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.potehin.common.Common;
 
 public class InsertionTest {
@@ -11,6 +11,6 @@ public class InsertionTest {
 
         Integer[] array = DataInit.getRandomIntArray(20);
         Insertion.sort(array);
-        Assert.assertTrue(Common.isSorted(array));
+        Assertions.assertTrue(Common.isSorted(array));
     }
 }

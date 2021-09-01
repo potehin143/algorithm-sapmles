@@ -1,7 +1,7 @@
 package org.potehin.priority;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.potehin.sort.util.DataInit;
 import org.potehin.sort.util.Quick;
 
@@ -25,7 +25,7 @@ public class MaxPQTest {
 
         while (maxPQ.size()>0){
             Comparable maxValue = maxPQ.delMax();
-            Assert.assertEquals(maxValue, stack.pop());
+            Assertions.assertEquals(maxValue, stack.pop());
         }
     }
 }
