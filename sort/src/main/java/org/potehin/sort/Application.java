@@ -1,11 +1,11 @@
 package org.potehin.sort;
 
 
+import org.apache.commons.lang3.time.StopWatch;
 import org.potehin.sort.util.Insertion;
 import org.potehin.sort.util.Merge;
 import org.potehin.sort.util.Quick;
 import org.potehin.sort.util.DataInit;
-import org.apache.commons.lang.time.StopWatch;
 import org.potehin.sort.util.Selection;
 import org.potehin.sort.util.Shell;
 
